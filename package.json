@@ -1,11 +1,11 @@
 {
   "name": "borica",
-  "version": "1.0.7",
+  "version": "0.0.0-development",
   "description": "Borica implementation for nodejs",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkkirilov/borica-nodejs.git"
+    "url": "https://github.com/gkkirilov/borica-nodejs.git"
   },
   "keywords": [
     "borica",
@@ -20,6 +20,10 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3"
+    "eslint-plugin-import": "^2.17.3",
+    "semantic-release": "^15.13.16"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
