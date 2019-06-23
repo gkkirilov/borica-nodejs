@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Register the following env variables in `process.env`
+Register the following env variables in `process.env` recommened use of [dotenv](https://www.npmjs.com/package/dotenv) package
 
 |Variable| Value|
 |:-:|---|
