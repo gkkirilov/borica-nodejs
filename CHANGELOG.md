@@ -1,5 +1,9 @@
 # Changelog
 
+## Ver 1.0.7
+
+Fix Readme
+
 ## Ver 1.0.6
 
 Add readme
