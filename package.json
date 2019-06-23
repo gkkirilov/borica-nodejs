@@ -1,0 +1,20 @@
+{
+  "name": "borica",
+  "version": "1.0.1",
+  "description": "Borica implementation for nodejs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkkirilov/borica-nodejs.git"
+  },
+  "keywords": [
+    "borica",
+    "payment"
+  ],
+  "author": "gkkirilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkkirilov/borica-nodejs/issues"
+  },
+  "homepage": "https://github.com/gkkirilov/borica-nodejs#readme"
+}
