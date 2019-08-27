@@ -12,3 +12,5 @@ Register the following env variables in `process.env` recommened use of [dotenv]
 |`BORICA_PRIVATE_KEY_TEST`|`-----BEGIN RSA PRIVATE KEY-----\nMIICXQIBAAKBgQC6D...` with \n after every line|
 |`BORICA_PUBLIC_KEY`|`-----BEGIN CERTIFICATE-----\nMIIEPjCCAyagAw` with \n after every line|
 |`BORICA_PUBLIC_KEY_TEST`|`-----BEGIN CERTIFICATE-----\nMIIEPjCCAyagAw` with \n after every line|
+
+## Usage
