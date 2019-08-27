@@ -1,17 +1,10 @@
 language: node_js
-
+cache:
+  directories:
+    - node_modules
 node_js:
   - 8
-before_install:
-  - npm i
-
-jobs:
-  include:
-    - stage: release
-      node_js: lts/*
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          - npm install -g semantic-release@^15
-          - semantic-release
+before_script:
+  - npm prune
+after_success:
+  - npm run semantic-release
