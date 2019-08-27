@@ -18,12 +18,27 @@
   },
   "homepage": "https://github.com/gkkirilov/borica-nodejs#readme",
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/npm": "^5.1.15",
+    "@semantic-release/release-notes-generator": "^7.3.0",
     "eslint": "^6.2.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3",
-    "semantic-release": "^15.13.16"
+    "semantic-release": "^15.13.24"
   },
   "scripts": {
     "semantic-release": "semantic-release"
+  },
+  "release": {
+    "repositoryUrl": "https://github.com/gkkirilov/borica-nodejs",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "master"
   }
 }
